@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "aws generative ai chatbot"
+version = "0.1.0"
+description = ""
+authors = ["nam pham <contact.nampham.work@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+aws-cdk-lib = "^2.167.0"
+aws-cdk-aws-lambda-python-alpha = "^2.167.0a0"
+uvicorn = "^0.32.0"
+mangum = "^0.19.0"
+llama-index-readers-elasticsearch = "^0.2.1"
+llama-index-vector-stores-opensearch = "^0.4.1"
+python-dotenv = "^1.0.1"
+datasets = "^3.1.0"
+loguru = "^0.7.2"
+llama-index-embeddings-huggingface = "^0.3.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+lab = "^8.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -18,6 +18,7 @@ python-dotenv = "^1.0.1"
 datasets = "^3.1.0"
 loguru = "^0.7.2"
 llama-index-embeddings-huggingface = "^0.3.1"
+llama-index-retrievers-bm25 = "^0.4.0"
 
 
 [tool.poetry.group.dev.dependencies]

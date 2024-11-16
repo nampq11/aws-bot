@@ -1,0 +1,17 @@
+**/.DS_Store
+
+**/*.pyc
+**/*-checkpoint.ipynb
+.vscode/
+
+.venv/
+**/.env*
+!**/.env.example
+
+notebooks/*
+!notebooks/*.ipynb
+
+**/*.log
+**/nohub.out
+
+**/serect*
